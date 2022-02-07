@@ -7,8 +7,8 @@
 sample_list = [4, 72, 15, 46, 94, 45, 88, 99]
 
 
-def second_max(list_arg):
-    sorted_revere_list = sorted(list_arg, reverse=True)
+def second_max(any_list):
+    sorted_revere_list = sorted(any_list, reverse=True)
     return sorted_revere_list[1]
 
 print(second_max(sample_list))
